@@ -1,0 +1,911 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <meta name="format-detection" content="telephone=no,address=no,email=no,date=no,url=no">
+<!--[if gte mso 9]><xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml><![endif]-->
+
+ %%[
+ if replyname == "Ollo Card" then
+ set @title = "Ollo"
+ elseif replyname == "Plus Finance" then
+ set @title = "Plus"
+ endif
+ ]%%
+<title>%%=v(@title)=%%</title>
+
+ <style type="text/css">
+  /* CLIENT-SPECIFIC STYLES */
+
+  body {
+   width: 100% !important;
+   -webkit-text-size-adjust: 100%;
+   -ms-text-size-adjust: 100%;
+   margin: 0;
+   padding: 0;
+  }
+   
+   /* Prevent Dates from being highlighted on iPhone & Android, But not in Samsumg Mail. */
+   
+   a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+   }
+
+  /* Prevent WebKit and Windows mobile changing default text sizes + Margin Reset */
+
+  .ReadMsgBody {
+   width: 100%;
+  }
+
+  .ExternalClass {
+   width: 100%;
+  }
+
+  /* Force Hotmail to display emails at full width */
+
+  .ExternalClass * {
+   line-height: 100%
+  }
+
+  /* Force Hotmail/Outlook to display normal line spacing */
+
+  #outlook a {
+   padding: 0;
+  }
+
+  /* Force Outlook to provide a "view in browser" message */
+
+  table,
+  td {
+   mso-table-lspace: 0pt;
+   mso-table-rspace: 0pt;
+   font-size: 12px;
+  }
+
+  /* Remove spacing between tables in Outlook 2007 and up */
+
+  img {
+   outline: none;
+   text-decoration: none;
+   -ms-interpolation-mode: bicubic;
+  }
+
+  /* Allow smoother rendering of resized image in Internet Explorer */
+  /* RESET STYLES */
+
+  img {
+   border: 0;
+   line-height: 100%;
+   outline: none;
+   text-decoration: none;
+  }
+
+  table {
+   border-collapse: collapse !important;
+  }
+
+  body {
+   height: 100% !important;
+   margin: 0;
+   padding: 0;
+   width: 100% !important;
+  }
+
+  a:link {
+   color: #2064ff;
+  }
+
+  tbody p {
+   height: 20px !important;
+   color: #000001 !important;
+  }
+
+  /*Link Color for IOS */
+
+  @media only screen and (max-width:480px) {
+   .resizetofull {
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 auto !important;
+   }
+
+   .leftfloat {
+    float: left !important;
+    padding-top: 10px !important;
+   }
+
+   .rightfloat {
+    float: right !important;
+    padding-top: 10px !important;
+   }
+
+   .mobile-hide {
+    display: none !important;
+    width: 0px !important;
+    font-size: 0px !important;
+    line-height: 0px !important;
+    max-height: 0px !important;
+    overflow: hidden !important;
+   }
+
+   .mobile-show {
+    display: block !important;
+    overflow: visible !important;
+    height: auto !important;
+    max-height: inherit !important;
+   }
+
+   .show {
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: auto !important;
+    overflow: visible !important;
+    max-height: inherit !important;
+    visibility: visible !important;
+   }
+
+   .drop {
+    width: 100% !important;
+    float: left !important;
+    display: inherit !important;
+    border: none !important;
+   }
+
+   .drop_center {
+    width: 100% !important;
+    float: center !important;
+    display: inherit !important;
+    border: none !important;
+   }
+
+   .textcenter {
+    text-align: center !important;
+    margin: 0 auto !important;
+   }
+
+   .textlright {
+    text-align: right !important;
+    margin: 0 auto !important;
+   }
+
+   .textleft {
+    text-align: left !important;
+    margin: 0 auto !important;
+   }
+
+   .mobilepadding {
+    padding: 10px !important;
+   }
+
+   .removepadding {
+    padding: 0 !important;
+   }
+
+   .paddinglr15 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+   }
+
+   .paddinglr20 {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+   }
+
+   .paddinglr30 {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+   }
+
+   .padTop0 {
+    padding-top: 0px !important;
+   }
+
+   .padTop2 {
+    padding-top: 2px !important;
+   }
+
+   .padTop5 {
+    padding-top: 5px !important;
+   }
+
+   .padTop10 {
+    padding-top: 10px !important;
+   }
+
+   .padTop15 {
+    padding-top: 15px !important;
+   }
+
+   .padTop20 {
+    padding-top: 20px !important;
+   }
+
+   .padTop30 {
+    padding-top: 30px !important;
+   }
+
+   .padLeft0 {
+    padding-left: 0px !important;
+   }
+
+   .padLeft5 {
+    padding-left: 5px !important;
+   }
+
+   .padLeft10 {
+    padding-left: 10px !important;
+   }
+
+   .padLeft15 {
+    padding-left: 15px !important;
+   }
+
+   .padLeft20 {
+    padding-left: 20px !important;
+   }
+
+   .padLeft30 {
+    padding-left: 30px !important;
+   }
+
+   .padRight0 {
+    padding-right: 0px !important;
+   }
+
+   .padRight5 {
+    padding-right: 5px !important;
+   }
+
+   .padRight10 {
+    padding-right: 10px !important;
+   }
+
+   .padRight15 {
+    padding-right: 15px !important;
+   }
+
+   .padRight20 {
+    padding-right: 20px !important;
+   }
+
+   .padRight30 {
+    padding-right: 30px !important;
+   }
+
+   .padBottom0 {
+    padding-Bottom: 0px !important;
+   }
+
+   .padBottom2 {
+    padding-Bottom: 2px !important;
+   }
+
+   .padBottom5 {
+    padding-Bottom: 5px !important;
+   }
+
+   .padBottom10 {
+    padding-Bottom: 10px !important;
+   }
+
+   .padBottom15 {
+    padding-Bottom: 15px !important;
+   }
+
+   .padBottom20 {
+    padding-Bottom: 20px !important;
+   }
+
+   .padBottom30 {
+    padding-Bottom: 30px !important;
+   }
+
+   .iconWidth_120px {
+    width: 120px !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+   }
+
+   .iconWidth_240px {
+    width: 240px !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+   }
+
+   .width50 {
+    width: 50% !important;
+   }
+
+   .width75 {
+    width: 75% !important;
+   }
+
+   .width100 {
+    width: 100% !important;
+   }
+
+   .removeRborder {
+    border-right: #ffffff solid 0px !important;
+   }
+
+   .borderBottom {
+    border-bottom: 1px solid #bfc6cb !important;
+    border-bottom-color: #bfc6cb !important;
+   }
+
+   .height10 {
+    height: 10px !important;
+    width: 8px !important;
+   }
+    
+   .font8 {
+    font-size: 8px !important;
+    line-height: 10px !important;
+   }
+
+   .font10 {
+    font-size: 10px !important;
+    line-height: 12px !important;
+   }
+
+   .font12 {
+    font-size: 12px !important;
+    line-height: 16px !important;
+   }
+
+   .font14 {
+    font-size: 14px !important;
+    line-height: 20px !important;
+   }
+
+   .font15 {
+    font-size: 15px !important;
+    line-height: 22px !important;
+   }
+
+   .font16 {
+    font-size: 16px !important;
+    line-height: 24px !important;
+   }
+
+   .font18 {
+    font-size: 18px !important;
+    line-height: 26px !important;
+   }
+
+   .font20 {
+    font-size: 20px !important;
+    line-height: 24px !important;
+   }
+
+   .font22 {
+    font-size: 22px !important;
+    line-height: 24px !important;
+   }
+
+   .font24 {
+    font-size: 24px !important;
+    line-height: 26px !important;
+   }
+
+   .font28 {
+    font-size: 28px !important;
+    line-height: 30px !important;
+   }
+
+   .font32 {
+    font-size: 32px !important;
+    line-height: 34px !important;
+   }
+
+   .font36 {
+    font-size: 36px !important;
+    line-height: 38px !important;
+   }
+
+   .font40 {
+    font-size: 40px !important;
+    line-height: 44px !important;
+   }
+
+   .font50 {
+    font-size: 50px !important;
+    line-height: 54px !important;
+   }
+  }
+ </style>
+  
+  %%[
+/*READ: DYNAMIC TEMPLATE INSTRUCTIONS*/
+/*USE "Yes" or "No" TO TOGGLE THE FOLLOWING VARIABLE. CHECK CREATIVE*/
+  set @Masthead01 = "Yes"
+  set @Masthead02 = "no"
+  set @Masthead03 = "no"
+  set @MastheadCustom = "no" 
+  set @UniqueDisclosure = "Yes"
+  set @Disclosure01 = "no"
+  set @Disclosure02 = "no"
+  set @EndNoteYear = "no"
+  
+/*READ: CAPITALIZE FRIST NAME INSTRUCTIONS*/
+/*SOLUTION FOR "FULL_NAME" OR "LAST_NAME". CHECK DATA EXTENSION*/
+/*REMOVE COMMENTS TAGS BELOW TO USE THIS SOLUTION.*/
+  set @First_N = Trim(ProperCase(First_N))
+
+  set @index = IndexOf(@First_N,'-')
+  set @length = Length(@First_N)
+
+  if @index > 0 then
+  set @part1 = Substring(@First_N,0,@index)
+  set @index = Add(@index, 1)
+  set @part2 = ProperCase(Substring(@First_N, @index, @length))
+  set @First_N = Concat(@part1,@part2)
+  endif
+
+
+  set @CampaignID = "U15"
+  set @Subjectline = "Unlimited cash back with Ollo" 
+  set @Preheader = "Here&#39;s a friendly reminder that your Ollo card earns you unlimited cash back."
+
+/*REMOVE COMMENTS TAGS IF NEEDED. CHECK THE CWS IPROOF LIST/DATA EXTENSION*/  
+
+  set @EMAILADDRESS = EMAILADDRESS
+  set @FIRST_N = FIRST_N
+  set @LAST_4 = LAST_4
+  set @FSF_ACCOUNT_ID = FSF_ACCOUNT_ID
+  set @Version = Version
+/*
+  set @PROMO_APR = PROMO_APR
+  set @EXPIRATION_MONTH = Format(EXPIRATION_MONTH,"MMMM yyyy")
+  set @TRANSFER_FEE = TRANSFER_FEE
+  set @STANDARD_PURCHASE_APR = STANDARD_PURCHASE_APR
+  set @RESPOND_BY_DATE = Format(RESPOND_BY_DATE,"MMMM dd, yyyy")
+*/
+  
+if recip_type == "proof" then
+  set @subjectline = concat("[",@CampaignID,"-",@Version,"-",recip_type,"-",emailtype,"] ",@subjectline)
+endif
+]%%
+</head>
+<!-- THE START -->
+<!-- THE START -->
+<body bgcolor="#ffffff" style="background-color:#ffffff; margin:0; padding:0;-webkit-font-smoothing: antialiased;width:100% !important;-webkit-text-size-adjust:none; font-family:Arial, sans-serif;">
+ <!-- START AMPSCRIPT & CUSTOM CSS & PREHEADER  -->
+ <!-- START AMPSCRIPT & CUSTOM CSS & PREHEADER -->
+ <!--[if !mso]><!-->
+ <table width="100%" border="0" cellspacing="0" cellpadding="0" class="resizetofull">
+  <tr>
+   <td valign="top" align="center">
+    <table width="600" border="0" cellspacing="0" cellpadding="0" class="resizetofull">
+   
+      <!--[if !mso]><!-->
+      <tr>
+      <td valign="top" align="left" style="font-size:12px; color:#000001;">
+       <!--Start Preview Text-->
+        <div style="display:none; margin:0; padding:0; width:0px; max-height:0px; overflow:hidden; font-size:0; line-height:1px;">%%=v(@Preheader)=%% </div>
+        <div style="display: none; max-height: 0px; overflow: hidden;"> &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;</div>
+        <!--End Preview Text-->
+      </td>
+     </tr>
+     <!--<![endif]-->
+    </table>
+   </td>
+  </tr>
+ </table>
+ <!--<![endif]-->
+ <!-- END AMPSCRIPT & CUSTOM CSS & PREHEADER -->
+ <!-- END AMPSCRIPT & CUSTOM CSS & PREHEADER -->
+ <!-- START OF THE MASTHEADS -->
+ <!-- START OF THE MASTHEADS -->
+ <table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+   <td bgcolor="#f1f1f1" style="background-color: #f1f1f1">
+    <div align="center">
+     <table width="600" border="0" cellspacing="0" cellpadding="0" class="resizetofull" bgcolor="#f1f1f1" style="width:600px;">
+      <tr>
+       <td valign="top" align="left">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="resizetofull">
+         <tr>
+          <td valign="top" align="left"> %%[if @Masthead01 == "Yes" then]%%
+           <!--START OF MASTHEAD 01-->
+           <table bgcolor="#ffffff" width="100%" height="60" border="0" cellpadding="0" cellspacing="0" style="border-top: 6px solid #00a3e0;">
+            <tr>
+             <th bgcolor="#ffffff" align="left" style="padding:0px 0px 0px 20px; vertical-align:middle;">
+              <table bgcolor="#ffffff" width="100%" cellspacing="0" cellpadding="0" border="0">
+               <tr>
+                <td bgcolor="#ffffff" align="left" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:14px; color:#888888; text-align: left; padding:14px 0px 16px 0px;">
+                 <a href="https://www.ollocard.com/" alias="Ollo_Masthead_01" target="_blank"><img src="https://image.myollocard.com/lib/fe8815747d6c007b7d/m/1/139603c5-53bc-48a6-862e-00add39ebaf5.png" alt="Ollo" width="66" height="24" border="0" style="display:block;" /></a>
+                </td>
+               </tr>
+              </table>
+             </th>
+             <th bgcolor="#ffffff" align="right" valign="top" style="padding:0px 20px 0px 0px; vertical-align:middle;">
+              <!-- Text -->
+              <table border="0" cellpadding="0" cellspacing="0">
+               <tr>
+                <td class="font12" bgcolor="#ffffff" align="right" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:14px; color:#888888; line-height: 20px; mso-line-height-rule:exactly; text-align: right !important; padding:14px 0px 14px 0px;"><img class="padTop2 height10" src="https://image.myollocard.com/lib/fe8815747d6c007b7d/m/1/8036e16a-24c1-4e39-9b15-2ebbd6f5615d.png"  width="9" height="11" alt="" border="0" style="display:inline-block;" /><span>&nbsp;&nbsp;</span>Account ending: %%=v(@LAST_4)=%%</td>
+               </tr>
+              </table>
+              <!-- /Text -->
+             </th>
+            </tr>
+           </table>
+           <!--END OF MASTHEAD 01-->%%[elseif @Masthead02 == "Yes" then]%%
+           <!--START OF MASTHEAD 02-->
+           <table bgcolor="#ffffff" width="100%" height="60" border="0" cellpadding="0" cellspacing="0" style="border-top: 6px solid #00a3e0;">
+            <tr>
+             <th bgcolor="#ffffff" align="left" style="padding:0px 0px 0px 20px; vertical-align:middle;">
+              <table bgcolor="#ffffff" width="100%" cellspacing="0" cellpadding="0" border="0">
+               <tr>
+                <td bgcolor="#ffffff" align="left" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:14px; color:#888888; text-align: left; padding:14px 0px 16px 0px;">
+                 <a href="https://www.ollocard.com/" alias="Ollo_Masthead_02" target="_blank"><img src="https://image.myollocard.com/lib/fe8815747d6c007b7d/m/1/139603c5-53bc-48a6-862e-00add39ebaf5.png" alt="Ollo" width="66" height="24" border="0" style="display:block;" /></a>
+                </td>
+               </tr>
+              </table>
+             </th>
+             <th bgcolor="#ffffff" align="right" valign="top" style="padding:0px 20px 0px 0px; vertical-align:middle;">
+              <!-- Text -->
+              <table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+               <tr>
+                <td bgcolor="#ffffff" align="right" valign="top" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:14px; color:#888888; text-align: right !important; padding:14px 0px 16px 0px;"><img src="https://image.myollocard.com/lib/fe8815747d6c007b7d/m/1/d3f42ac0-d57c-426e-90d6-dc7a5ffe0cbd.png" alt="Varo" width="auto" height="24" border="0" style="display:block;" /></td>
+               </tr>
+              </table>
+              <!-- /Text -->
+             </th>
+            </tr>
+           </table>
+           <!--END OF MASTHEAD 02-->%%[elseif @Masthead03 == "Yes" then]%%
+           <!--START OF MASTHEAD 03-->
+           <table bgcolor="#ffffff" width="100%" height="60" border="0" cellpadding="0" cellspacing="0" style="border-top: 6px solid #00a3e0;">
+            <tr>
+             <th bgcolor="#ffffff" align="left" style="padding:0px 0px 0px 20px; vertical-align:middle;">
+              <table bgcolor="#ffffff" width="100%" cellspacing="0" cellpadding="0" border="0">
+               <tr>
+                <td bgcolor="#ffffff" align="left" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:14px; color:#888888; padding:14px 0px 16px 0px;">
+                 <a href="https://www.ollocard.com/" alias="Ollo_Masthead_03" target="_blank"><img src="https://image.myollocard.com/lib/fe8815747d6c007b7d/m/1/139603c5-53bc-48a6-862e-00add39ebaf5.png" alt="Ollo" width="66" height="24" border="0" style="display:block;" /></a>
+                </td>
+               </tr>
+              </table>
+             </th>
+            </tr>
+           </table>
+           <!--END OF MASTHEAD 03-->%%[elseif @MastheadCustom == "Yes" then]%%
+           %%[endif]%%
+          </td>
+         </tr>
+        </table>
+       </td>
+      </tr>
+     </table>
+    </div>
+   </td>
+  </tr>
+ </table>
+ <!-- END OF THE MASTHEADS -->
+ <!-- END OF THE MASTHEADS -->
+ <!-- START DRAG BODY CONTENT BLOCK -->
+ <!-- START DRAG BODY CONTENT BLOCK -->
+ <table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+   <td bgcolor="#f1f1f1" style="background-color: #f1f1f1">
+    <div align="center" bgcolor="#ffffff">
+     <table width="600" border="0" cellspacing="0" cellpadding="0" class="resizetofull" bgcolor="#ffffff" style="width:600px;">
+      <tr>
+       <td valign="top" align="left" bgcolor="#ffffff">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="resizetofull" bgcolor="#ffffff">
+         <tr>
+          <td valign="top" align="left" bgcolor="#ffffff">
+           <!--START OF HEADER 01-->
+%%[if @Version == "V2" then]%%
+<table bgcolor="#ffffff" width="100%" cellspacing="0" cellpadding="0" border="0">
+  <tr>
+    <td bgcolor="#ffffff" align="left" valign="top"> <img src="https://image.myollocard.com/lib/fe8815747d6c007b7d/m/1/ac5de848-76f9-4c16-a50c-ddd9b3d268cb.png" alt="Unlimited cash back with your Ollo Rewards card" width="600" height="auto" border="0" style="display:block;" class="mobile-hide">
+      <!--[if !mso]><!--><img class="mobile-show resizetofull" src="https://image.myollocard.com/lib/fe8815747d6c007b7d/m/1/4bb9e337-9e8d-47cc-8774-8759812ac245.png" alt="Unlimited cash back with your Ollo Rewards card" width="320" height="auto" border="0" style="display:none;"/>
+      <!--<![endif]-->
+    </td>
+  </tr>
+</table>
+%%[elseif @Version == "V3" then]%%
+<table bgcolor="#ffffff" width="100%" cellspacing="0" cellpadding="0" border="0">
+  <tr>
+    <td bgcolor="#ffffff" align="left" valign="top"> <img src="https://image.myollocard.com/lib/fe8815747d6c007b7d/m/1/fb7ba4b6-d4dc-4b65-b8a8-eb8121ab59f8.png" alt="Unlimited cash back with your Ollo Optimum card" width="600" height="auto" border="0" style="display:block;" class="mobile-hide">
+      <!--[if !mso]><!--><img class="mobile-show resizetofull" src="https://image.myollocard.com/lib/fe8815747d6c007b7d/m/1/b935e3c5-7918-4d9a-9c87-d8532bd41a3a.png" alt="Unlimited cash back with your Ollo Optimum card" width="320" height="auto" border="0" style="display:none;"/>
+      <!--<![endif]-->
+    </td>
+  </tr>
+</table>
+%%[elseif @Version == "V4" then]%%
+<table bgcolor="#ffffff" width="100%" cellspacing="0" cellpadding="0" border="0">
+  <tr>
+    <td bgcolor="#ffffff" align="left" valign="top"> <img src="https://image.myollocard.com/lib/fe8815747d6c007b7d/m/1/8bcb4696-a772-415f-ba86-2957b4808b35.png" alt="Unlimited cash back with your Ollo Rewards+ card" width="600" height="auto" border="0" style="display:block;" class="mobile-hide">
+      <!--[if !mso]><!--><img class="mobile-show resizetofull" src="https://image.myollocard.com/lib/fe8815747d6c007b7d/m/1/5f1f3fa1-17ff-400a-a0ce-daf36da77829.png" alt="Unlimited cash back with your Ollo Rewards+ card" width="320" height="auto" border="0" style="display:none;"/>
+      <!--<![endif]-->
+    </td>
+  </tr>
+</table>
+%%[endif]%%
+<!--END OF HEADER 01--><!--START OF BODY 01-->
+<table bgcolor="#ffffff" width="100%" cellspacing="0" cellpadding="0" border="0">
+ <tr>
+  <td bgcolor="#ffffff" align="center" valign="top" style="padding:20px 20px 0px 20px;">
+   <table bgcolor="#ffffff" width="100%" cellspacing="0" cellpadding="0" border="0">%%[if empty(@First_N) then]%%
+    <tr>
+     <td class="font18" align="left" valign="top" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:bold; font-size:22px; line-height: 36px; color:#00a3e0; padding:0px 0px 20px 0px;">Hi, </td>
+    </tr>%%[else]%%
+    <tr>
+     <td class="font18" align="left" valign="top" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:bold; font-size:22px; line-height: 36px; color:#00a3e0; padding:0px 0px 20px 0px;">Hi %%=v(@First_N)=%%, </td>
+    </tr>%%[endif]%%
+     %%[if @Version == "V2" then]%%
+    <tr>
+     <td class="font15" align="left" valign="top" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:18px; line-height: 26px; mso-line-height-rule:exactly; color:#333333; padding:0 0px 20px 0px;">Here&#39;s a friendly reminder that your Ollo Rewards card earns you unlimited cash back on everyday&nbsp;purchases:</td>
+    </tr>
+     %%[elseif @Version == "V3" then]%%
+    <tr>
+     <td class="font15" align="left" valign="top" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:18px; line-height: 26px; mso-line-height-rule:exactly; color:#333333; padding:0 0px 20px 0px;">Here&#39;s a friendly reminder that your Ollo Optimum card earns you unlimited cash back on everyday&nbsp;purchases:</td>
+    </tr>
+      %%[elseif @Version == "V4" then]%%
+    <tr>
+     <td class="font15" align="left" valign="top" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:18px; line-height: 26px; mso-line-height-rule:exactly; color:#333333; padding:0 0px 20px 0px;">Here&#39;s a friendly reminder that your Ollo Rewards+ card earns you unlimited cash back on everyday&nbsp;purchases:</td>
+    </tr>
+      %%[endif]%% 
+    <tr>
+     <td align="left" valign="top" style="padding:0px 0px 0px 0px;">
+      <table cellpadding="0" cellspacing="0" border="0">
+         %%[if @Version == "V2" then]%%
+       <tr>
+        <td align="left" valign="top" width="8" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:18px; line-height: 26px; mso-line-height-rule:exactly; color:#333333; padding:0px 0px 6px 0;">&#8226; </td>
+        <td class="font15 padLeft10" align="left" valign="top" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:18px; line-height: 26px; mso-line-height-rule:exactly; color:#333333; padding:0px 0px 6px 14px;">2% on gas, groceries and drugstore&nbsp;purchases</td>
+       </tr>
+       <tr>
+        <td align="left" valign="top" width="8" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:18px; line-height: 26px; mso-line-height-rule:exactly; color:#333333; padding:0px 0px 6px 0px;">&#8226; </td>
+        <td class="font15 padLeft10" align="left" valign="top" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:18px; line-height: 26px; mso-line-height-rule:exactly; color:#333333; padding:0px 0px 6px 14px;">1% on all other&nbsp;purchases</td>
+       </tr>
+         %%[elseif @Version == "V3" then]%%
+       <tr>
+        <td align="left" valign="top" width="8" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:18px; line-height: 26px; mso-line-height-rule:exactly; color:#333333; padding:0px 0px 6px 0;">&#8226; </td>
+        <td class="font15 padLeft10" align="left" valign="top" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:18px; line-height: 26px; mso-line-height-rule:exactly; color:#333333; padding:0px 0px 6px 14px;">2.5% on all your purchases, all the&nbsp;time</td>
+       </tr>
+       <tr>
+        <td align="left" valign="top" width="8" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:18px; line-height: 26px; mso-line-height-rule:exactly; color:#333333; padding:0px 0px 6px 0px;">&#8226; </td>
+        <td class="font15 padLeft10" align="left" valign="top" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:18px; line-height: 26px; mso-line-height-rule:exactly; color:#333333; padding:0px 0px 6px 14px;">No limits to what you can&nbsp;earn</td>
+       </tr>
+         %%[elseif @Version == "V4" then]%%
+       <tr>
+        <td align="left" valign="top" width="8" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:18px; line-height: 26px; mso-line-height-rule:exactly; color:#333333; padding:0px 0px 6px 0;">&#8226; </td>
+        <td class="font15 padLeft10" align="left" valign="top" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:18px; line-height: 26px; mso-line-height-rule:exactly; color:#333333; padding:0px 0px 6px 14px;">2% on all purchases, all the&nbsp;time</td>
+       </tr>
+       <tr>
+        <td align="left" valign="top" width="8" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:18px; line-height: 26px; mso-line-height-rule:exactly; color:#333333; padding:0px 0px 6px 0px;">&#8226; </td>
+        <td class="font15 padLeft10" align="left" valign="top" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:18px; line-height: 26px; mso-line-height-rule:exactly; color:#333333; padding:0px 0px 6px 14px;">No limits to what you can&nbsp;earn</td>
+       </tr>
+        %%[endif]%%
+         <tr>
+        <td align="left" valign="top" width="8" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:18px; line-height: 26px; mso-line-height-rule:exactly; color:#333333; padding:0px 0px 6px 0px;">&#8226; </td>
+        <td class="font15 padLeft10" align="left" valign="top" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:18px; line-height: 26px; mso-line-height-rule:exactly; color:#333333; padding:0px 0px 6px 14px;">No minimum amount to&nbsp;redeem</td>
+       </tr>
+         <tr>
+        <td align="left" valign="top" width="8" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:18px; line-height: 26px; mso-line-height-rule:exactly; color:#333333; padding:0px 0px 0px 0px;">&#8226; </td>
+        <td class="font15 padLeft10" align="left" valign="top" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:18px; line-height: 26px; mso-line-height-rule:exactly; color:#333333; padding:0px 0px 0px 14px;">No expiration&nbsp;dates</td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+      <tr>
+     <td class="font15" align="left" valign="top" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:18px; line-height: 26px; mso-line-height-rule:exactly; color:#333333; padding:20px 0px 0px 0px;">As always, you can check you cash back balance any time at <a href="https://www.ollocard.com/" alias="ollocard.com" target="_blank" style="text-decoration:none; color:#333333;">ollocard.com</a> or on the Ollo mobile&nbsp;app.</td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+</table>
+<!--END OF BODY 01-->
+<!--START OF SIGN OFF 03-->
+<table bgcolor="#ffffff" width="100%" cellspacing="0" cellpadding="0" border="0">
+  <tr>
+    <td style="padding:0px 20px 0px 20px;" align="left" valign="top">
+      <table bgcolor="#ffffff" width="100%" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+          <td class="padTop20" align="left" valign="top" style="padding:20px 0px 25px 0px;">
+            <a href="https://secure.ollocard.com/AccountMgmt/RedeemRewards" alias="Check Cash Back" target="_blank" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:bold; font-size:18px; line-height: 1.25; mso-line-height-rule:exactly; color:#00a3e0; text-decoration: none; padding:0px 0px 0px 0px;"> <img src="https://image.myollocard.com/lib/fe8815747d6c007b7d/m/1/02586b99-34cc-4bd4-85b0-6678784ee20b.png" alt="CHECK CASH BACK" width="189" height="auto" border="0" style="display:block;" class="textcenter"> </a>
+          </td>
+        </tr>
+      </table>
+      <table bgcolor="#ffffff" width="100%" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+          <td bgcolor="#ffffff" align="left" valign="top" style="padding:20px 0px 20px 0px; border-top:solid 1px #c8c8c8;">
+            <a href="https://www.ollocard.com/" alias="Ollo Logo" target="_blank"><img src="https://image.myollocard.com/lib/fe8815747d6c007b7d/m/1/139603c5-53bc-48a6-862e-00add39ebaf5.png" alt="ollo" width="70" height="auto" border="0" style="display:block;" /></a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!--START OF SIGN OFF 03--><!--START OF APP 03-->
+   <table bgcolor="#f2f2f2" width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+     <td bgcolor="#f2f2f2" align="left" valign="top" style="padding:20px 20px 0 20px;">
+      <table bgcolor="#f2f2f2" width="100%" cellspacing="0" cellpadding="0" border="0">
+       <tr>
+        <td class="padLeft0" align="center" valign="top" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:bold; font-size:14px; line-height: 20px; color:#333333; padding:0px 0px 10px 0px;">Download our app</td>
+       </tr>
+       <tr>
+        <td bgcolor="#f2f2f2" align="center" valign="top" style="padding:0px 0px 0px 0px;">
+         <table bgcolor="#f2f2f2" width="100%" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+           <td align="right" valign="top" width="50%" style="padding-right: 5px;">
+            <a href="https://apps.apple.com/us/app/ollo-credit-card/id1427782837" alias="App Store Button" target="_blank"><img src="https://image.myollocard.com/lib/fe8815747d6c007b7d/m/1/26b843da-d1ae-43f0-8a07-b7e0b21fd00e.png" alt="Download on the App Store" width="120" height="40" style="display: block; border: 0;" /></a>
+           </td>
+           <td bgcolor="#f2f2f2" align="left" valign="top" width="50%" style="padding-left: 5px;">
+            <a href="https://play.google.com/store/apps/details?id=com.ollocard.mobileapp&hl=en_US" alias="Google Play Button" target="_blank"><img src="https://image.myollocard.com/lib/fe8815747d6c007b7d/m/1/e8108b60-5f27-49bf-942a-99b8cac5c49d.png" alt="GET IT ON Google Play" width="135" height="40" style="display: block; border: 0;" /></a>
+           </td>
+          </tr>
+         </table>
+        </td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>
+<!--END OF APP 03-->
+          </td>
+         </tr>
+        </table>
+       </td>
+      </tr>
+     </table>
+    </div>
+   </td>
+  </tr>
+ </table>
+ <!-- END DRAG BODY CONTENT BLOCK -->
+ <!-- END DRAG BODY CONTENT BLOCK -->
+ <!-- START OF THE FOOTER -->
+ <!-- START OF THE FOOTER -->
+ <table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+   <td bgcolor="#f1f1f1" style="background-color: #f1f1f1">
+    <div align="center">
+     <table width="600" border="0" cellspacing="0" cellpadding="0" class="resizetofull" bgcolor="#f1f1f1" style="width:600px;">
+      <tr>
+       <td valign="top" align="left">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="resizetofull">
+         <tr>
+          <td valign="top" align="left">
+           %%[if @UniqueDisclosure == "Yes" then]%%
+           <!--START OF PROMOTIONAL LEGAL-->
+           <table bgcolor="#f2f2f2" width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+             <td bgcolor="#f2f2f2" align="left" valign="top" style="padding:10px 0px 10px 0px;">
+              <!--START OF CUSTOM LEGAL-->
+              <table bgcolor="#f2f2f2" width="100%" cellpadding="0" cellspacing="0" border="0">
+               <tr>
+                <td class="font12" bgcolor="#f2f2f2" align="left" valign="top" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:12px; color:#888888; line-height: 16px; mso-line-height-rule:exactly; padding: 0px 0px 0px 0px;">
+                 <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">           <table bgcolor="#f2f2f2" width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+             <td bgcolor="#f2f2f2" align="left" valign="top" style="padding:20px 20px 0px 20px;">
+              <table bgcolor="#f2f2f2" width="100%" cellpadding="0" cellspacing="0" border="0">
+               <tr>
+                <td class="font12" bgcolor="#f2f2f2" align="left" valign="top" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:12px; color:#888888; line-height: 16px; mso-line-height-rule:exactly; padding: 0px 0px 0px 0px;">This email is from Ollo Card Services, P.&#65279;O. Bo&#65279;x 9&#65279;2&#65279;2&#65279;2, Old B&#65279;eth&#65279;pag&#65279;e, N&#65279;Y 1&#65279;1&#65279;8&#65279;0&#65279;4. Please do not respond to this email as the mailbox cannot accept incoming emails. Read our 
+                  <a href="https://ollocard.com/Privacy-Policy" alias="Privacy_Policy_Disclosure_01" target="_blank" style="color:#888888; text-decoration: underline;">privacy<span>&nbsp;</span>policy</a> at<span>&nbsp;</span>olloc&#8203;ar&#8203;d.c&#8203;o&#8203;m.</td>
+               </tr>
+                <tr>
+                <td class="font12" bgcolor="#f2f2f2" align="left" valign="top" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:12px; color:#888888; line-height: 16px; mso-line-height-rule:exactly; padding: 10px 0px 0px 0px;">&copy;%%=Format(Now(), "yyyy")=%% Ollo Card Services. 
+                  Ollo<sup style="mso-line-height-rule:exactly; line-height:0; font-size:60%; display: inline-block;"><!--[if (gte mso 9) | (IE 7)]><span style="font-size: 10px; vertical-align: 2px;"><![endif]-->&reg;<!--[if (gte mso 9) | (IE 7)]></span><![endif]-->
+                 </sup><span>&nbsp;</span>is a registered trademark of Ollo Card<span>&nbsp;</span>Services.</td>
+               </tr>
+               <tr>
+                <td class="font12" bgcolor="#f2f2f2" align="left" valign="top" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:12px; color:#888888; line-height: 16px; mso-line-height-rule:exactly; padding: 10px 0px 0px 0px;">If you no longer want to receive marketing emails from Ollo Card Services, click to<span>&nbsp;</span><a href="%%profile_center_url%%" alias="unsubscribe" target="_blank" style="color:#888888; text-decoration: underline;">unsubscribe</a>. </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+           </table>
+                
+                 
+               </td></tr></table>
+                </td>
+               </tr>
+              </table>
+              <!--END OF CUSTOM LEGAL-->
+             </td>
+            </tr>
+           </table>
+           <!--END OF PROMOTIONAL LEGAL-->
+           %%[else]%% %%[endif]%%
+           %%[if @Disclosure01 == "Yes" then]%%
+           <!--START OF PROMOTIONAL LEGAL-->
+           <table bgcolor="#f2f2f2" width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+             <td bgcolor="#f2f2f2" align="left" valign="top" style="padding:20px 20px 10px 20px;">
+              <table bgcolor="#f2f2f2" width="100%" cellpadding="0" cellspacing="0" border="0">
+               <tr>
+                <td class="font12" bgcolor="#f2f2f2" align="left" valign="top" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:12px; color:#888888; line-height: 16px; mso-line-height-rule:exactly; padding: 0px 0px 0px 0px;">This email is from Ollo Card Services, P.&#65279;O. Bo&#65279;x 9&#65279;2&#65279;2&#65279;2, Old B&#65279;eth&#65279;pag&#65279;e, N&#65279;Y 1&#65279;1&#65279;8&#65279;0&#65279;4. Please do not respond to this email as the mailbox cannot accept incoming emails. Read our 
+                  <a href="https://ollocard.com/Privacy-Policy" alias="Privacy_Policy_Disclosure_01" target="_blank" style="color:#888888; text-decoration: underline;">privacy<span>&nbsp;</span>policy</a> at<span>&nbsp;</span>olloc&#8203;ar&#8203;d.c&#8203;o&#8203;m.</td>
+               </tr>
+               <tr>
+                <td class="font12" bgcolor="#f2f2f2" align="left" valign="top" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:12px; color:#888888; line-height: 16px; mso-line-height-rule:exactly; padding: 10px 0px 0px 0px;">If you no longer want to receive marketing emails from Ollo Card Services, click to<span>&nbsp;</span><a href="%%profile_center_url%%" alias="unsubscribe" target="_blank" style="color:#888888; text-decoration: underline;">unsubscribe</a>. </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+           </table>
+           <!--END OF PROMOTIONAL LEGAL-->
+           %%[elseif @Disclosure02 == "Yes" then]%%
+           <!--START OF SERVICING LEGAL-->
+           <table bgcolor="#f2f2f2" width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+             <td bgcolor="#f2f2f2" align="left" valign="top" style="padding:20px 20px 10px 20px;">
+              <table bgcolor="#f2f2f2" width="100%" cellpadding="0" cellspacing="0" border="0">
+               <tr>
+                <td class="font12" bgcolor="#f2f2f2" align="left" valign="top" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:12px; color:#888888; line-height: 16px; mso-line-height-rule:exactly; padding: 0px 0px 0px 0px;">This email is from Ollo Card Services, P.&#65279;O. Bo&#65279;x 9&#65279;2&#65279;2&#65279;2, Old B&#65279;eth&#65279;pag&#65279;e, N&#65279;Y 1&#65279;1&#65279;8&#65279;0&#65279;4. Please do not respond to this email as the mailbox cannot accept incoming emails. Read our 
+                  <a href="https://ollocard.com/Privacy-Policy" alias="Privacy_Policy_Disclosure_02" target="_blank" style="color:#888888; text-decoration: underline;">privacy<span>&nbsp;</span>policy</a> at<span>&nbsp;</span>olloc&#8203;ar&#8203;d.c&#8203;o&#8203;m.</td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+           </table>
+           <!--END OF SERVICING LEGAL-->%%[endif]%%
+           <!--START OF FINAL FOOTER-->
+           <table bgcolor="#f2f2f2" width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+             <td bgcolor="#f2f2f2" align="left" valign="top" style="padding:0px 20px 30px 20px;">
+              <table bgcolor="#f2f2f2" width="100%" cellpadding="0" cellspacing="0" border="0">
+               %%[if @EndNoteYear == "Yes" then]%%
+               <tr>
+                <td class="font12" bgcolor="#f2f2f2" align="left" valign="top" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:12px; color:#888888; line-height: 16px; mso-line-height-rule:exactly; padding: 0px 0px 10px 0px;">
+                 &copy; %%=Format(Now(), "yyyy")=%% Ollo Card Services. 
+                  Ollo<sup style="mso-line-height-rule:exactly; line-height:0; font-size:60%; display: inline-block;"><!--[if (gte mso 9) | (IE 7)]><span style="font-size: 10px; vertical-align: 2px;"><![endif]-->&reg;<!--[if (gte mso 9) | (IE 7)]></span><![endif]-->
+                 </sup><span>&nbsp;</span>is a registered trademark of Ollo Card<span>&nbsp;</span>Services.</td>
+               </tr>
+               %%[else]%% %%[endif]%%
+               <tr>
+                <td class="font12" bgcolor="#f2f2f2" align="left" valign="top" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:12px; color:#888888; line-height: 16px; mso-line-height-rule:exactly; padding: 0px 0px 0px 0px;">Having trouble viewing this email? <span style="white-space: nowrap;">View it as a <a href="%%view_email_url%%" target="_blank" alias="View_Online" style="color:#888888; text-decoration:underline;">Web<span>&nbsp;</span>Page</a>.</span></td>
+               </tr>
+               <tr>
+                <td class="font12" bgcolor="#f2f2f2" align="left" valign="top" style="font-family:Arial, Helvetica, Sans-Serif; font-weight:normal; font-size:12px; color:#888888; line-height: 16px; mso-line-height-rule:exactly; padding: 10px 0px 0px 0px;"><img class="padTop2 height10" src="https://image.myollocard.com/lib/fe8815747d6c007b7d/m/1/8036e16a-24c1-4e39-9b15-2ebbd6f5615d.png" width="9" height="11" alt="" border="0" style="display:inline-block; width: 9px; height: 11px;" /><span>&nbsp;</span>This email was sent to: <a href="mailto:%%=v(@emailaddress)=%%" target="_blank" alias="Recipient_Mail" style="font-family: Arial, Helvetica, sans-serif; color:#888888; text-decoration:none;">%%=v(@emailaddress)=%%</a></td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+           </table>
+           <!--END OF FINAL FOOTER-->
+          </td>
+         </tr>
+        </table>
+       </td>
+      </tr>
+     </table>
+    </div>
+   </td>
+  </tr>
+ </table>
+ <!-- END OF THE FOOTER -->
+ <!-- END OF THE FOOTER -->
+<!-- Adobe Tracking Pixel -->
+  <!-- Adobe Tracking Pixel -->
+%%[if replyname == "Ollo Card" then]%%
+<img src="http://ally.demdex.net/event?d_sid=24550017" width="0" height="0" />
+ %%[elseif replyname == "Plus Finance" then]%%
+<img src="http://ally.demdex.net/event?d_sid=24550018" width="0" height="0" />
+ %%[endif]%%
+<!-- /Adobe Tracking Pixel -->
+<!-- /Adobe Tracking Pixel -->
+ <custom name="opencounter" type="tracking">
+  <custom name="usermatch" type="tracking">
+</body>
+
+</html>
+<!-- THE END -->
+<!-- THE END -->
